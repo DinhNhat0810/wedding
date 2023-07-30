@@ -1,0 +1,19 @@
+.wrapper {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2rem;
+
+        .right {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 4rem;
+                cursor: pointer;
+                border-radius: 50%;
+                margin: 1rem;
+            }
+        }
+    }
+}

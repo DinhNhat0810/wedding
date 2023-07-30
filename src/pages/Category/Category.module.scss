@@ -1,0 +1,61 @@
+.wrapper {
+    margin-bottom: 4rem;
+    a {
+        color: #000;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .category {
+        font-size: 1.6rem;
+        max-height: 40rem;
+        overflow-y: auto;
+        margin-bottom: 2rem;
+
+        .item {
+            padding: 1rem 0;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--primary-color) !important;
+            }
+        }
+    }
+    .price {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+
+            p {
+                font-size: 1.4rem;
+                display: flex;
+                align-items: center;
+
+                &:first-child {
+                    padding-right: 0.4rem;
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .products {
+        margin-top: 2rem;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

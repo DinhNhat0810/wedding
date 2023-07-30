@@ -1,0 +1,47 @@
+.product {
+    margin-bottom: 2rem;
+    position: relative;
+
+    &:hover .action {
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 20rem;
+    }
+
+    .content {
+        margin-top: 1rem;
+        text-align: center;
+
+        .content_title {
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    .action {
+        position: absolute;
+        width: calc(100% - 3.6rem);
+        display: none;
+        justify-content: center;
+        background-color: var(--primary-color);
+        height: 3.6rem;
+        align-items: center;
+        top: 50%;
+
+        .action_icon {
+            color: #fff;
+            margin-right: 0.4rem;
+            cursor: pointer;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+}

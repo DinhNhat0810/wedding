@@ -1,0 +1,29 @@
+.item-image {
+    position: relative;
+    width: 48%;
+    height: 10rem;
+    margin-bottom: 1rem;
+
+    &:hover .item-image__icon {
+        display: flex;
+    }
+
+    .item-image__icon {
+        background-color: rgba(240, 248, 255, 0.4);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+        .item-image__icon-delete {
+            cursor: pointer;
+            color: var(--primary-color);
+            font-size: 2rem;
+            padding: 0.4rem;
+        }
+    }
+}

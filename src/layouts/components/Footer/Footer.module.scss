@@ -1,0 +1,42 @@
+.footer {
+    background-color: #f9cfcf;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -8px 8px;
+    .inner {
+        .title {
+            font-size: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        a {
+            color: #000;
+            display: inline-block;
+            margin-bottom: 0.8rem;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .contact {
+        color: #000;
+
+        p {
+            margin-bottom: 0.8rem;
+            width: 90%;
+
+            &:first-child {
+                border-bottom: 0.1rem solid #000;
+                padding-bottom: 0.4rem;
+            }
+        }
+    }
+}

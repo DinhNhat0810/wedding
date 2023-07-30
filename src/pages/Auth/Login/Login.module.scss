@@ -1,0 +1,36 @@
+.wrapper {
+    margin-bottom: 4rem;
+    a {
+        color: #000;
+    }
+
+    button {
+        border-radius: 0 !important;
+    }
+
+    .form {
+        width: 50%;
+        margin: auto;
+
+        h1 {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        & > p {
+            text-align: center;
+            margin: 1rem;
+
+            a {
+                text-decoration: underline;
+                color: var(--primary-color);
+                font-size: 1.6rem;
+            }
+        }
+
+        .forgot_password {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+}

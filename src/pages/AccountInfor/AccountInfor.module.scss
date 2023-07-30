@@ -1,0 +1,94 @@
+.wrapper {
+    margin-bottom: 4rem;
+    a {
+        color: #000;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 2rem;
+        color: #707070;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+        line-height: 1.7;
+        color: #6e6161;
+    }
+
+    .avatar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        & > div {
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+            height: 25rem;
+            width: 25rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            &::after {
+                content: '';
+                display: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgb(110 97 97 / 35%);
+                border-radius: 50%;
+                z-index: 1;
+            }
+
+            &:hover::after {
+                display: block;
+            }
+
+            .edit-icon {
+                font-size: 2.8rem;
+                cursor: pointer;
+                position: absolute;
+                top: 45%;
+                right: 45%;
+                z-index: 2;
+            }
+        }
+    }
+
+    .infor {
+        display: flex;
+        justify-content: flex-end;
+        & > div {
+            width: 70%;
+
+            & > div {
+                margin-bottom: 1rem;
+            }
+        }
+
+        p {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .submit {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

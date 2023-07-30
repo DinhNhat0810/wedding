@@ -1,0 +1,25 @@
+const routes = {
+    home: '/',
+    login: '/dang-nhap',
+    register: '/dang-ky',
+    verifyAccount: '/dang-ky/xac-thuc',
+    resetPassword: '/dang-nhap/quen-mat-khau',
+    introduce: '/gioi-thieu',
+    search: '/tim-kiem',
+    service: '/dich-vu',
+    services: '/goi-dich-vu',
+    detailService: '/dich-vu/:slug',
+    contact: '/lien-he',
+    admin: '/quan-tri',
+    adminUsers: '/quan-tri/nguoi-dung',
+    adminStaffs: '/quan-tri/nhan-vien',
+    adminCategories: '/quan-tri/danh-muc',
+    account: '/tai-khoan',
+    managerCategories: '/quan-tri/dich-vu',
+    managerOrders: '/quan-tri/don-hang',
+    managerRevenue: '/quan-tri/doanh-thu',
+    storeService: '/cua-hang/dich-vu',
+    detailCombo: '/goi-dich-vu/:slug',
+};
+
+export default routes;

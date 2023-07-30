@@ -1,0 +1,37 @@
+.wrapper {
+    .table {
+        .table_title {
+            p {
+                font-weight: 600;
+            }
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .description {
+            line-height: 2rem;
+            max-height: 4rem;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            text-align: left;
+        }
+    }
+
+    .avatar {
+        margin-bottom: 2rem;
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+
+        img {
+            cursor: pointer;
+        }
+    }
+}
